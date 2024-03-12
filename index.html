@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bike Ride Routes</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Bike Ride Routes</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Routes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="routes">
+                <h2>Popular Routes</h2>
+                <div class="route">
+                    <h3>City Park Loop</h3>
+                    <p>A scenic route through the city park with beautiful views of the lake.</p>
+                    <a href="#">View Route</a>
+                </div>
+                <div class="route">
+                    <h3>Mountain Trail Adventure</h3>
+                    <p>An adventurous trail ride through the mountains with breathtaking scenery.</p>
+                    <a href="#">View Route</a>
+                </div>
+            </section>
+            
+            <section class="about">
+                <h2>About</h2>
+                <p>Welcome to Bike Ride Routes! We provide guides and information for biking enthusiasts to explore various routes and trails.</p>
+            </section>
+            
+            <section class="contact">
+                <h2>Contact</h2>
+                <p>Have questions or suggestions? Feel free to get in touch with us!</p>
+                <form action="contact.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-info">
+                <p>Bike Ride Routes &copy; 2024</p>
+                <p>Contact: info@bikerideroutes.com</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </body>
+</html>
